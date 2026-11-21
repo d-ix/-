@@ -1,0 +1,8 @@
+def calc(a, b, op):
+    if op == '+': return a + b
+    if op == '-': return a - b
+    if op == '*': return a * b
+    if op == '/': return a / b if b != 0 else "Деление на ноль!"
+    return "Неизвестная операция"
+
+print(calc(5, 3, '+'))  # 8
